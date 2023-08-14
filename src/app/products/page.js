@@ -14,7 +14,7 @@ export default function Products() {
         <h1 className={`text-3xl md:text-5xl  ${styles.font1} `}>
           Bebe Project
         </h1>
-        <p className={`mt-6 md:mt-10 leading-relaxed ${styles.font2}`}>
+        <p className={`mt-6 md:mt-10 leading-relaxed ${styles.font2} px-2`}>
           Bebe Project는 부모와 아이의 삻의 질을 향상시키고 지원하기 위해 기획된
           프로젝트입니다.
           <br /> 부모와 아이를 지원하는 다양한 서비스와 리소스를 제공하고자
@@ -65,8 +65,8 @@ export default function Products() {
           "김혜영 포트폴리오 페이지입니다.",
           "반응형 웹 페이지",
           "Next.js, tailwind Css",
-          " https://diary.mybebe.net/",
-          "포트폴리오 깃헙"
+          "https://diary.mybebe.net/",
+          "https://github.com/hye-yeong95/Portfolio"
         )}
       </div>
     </div>
@@ -113,7 +113,7 @@ function renderSection(
             <div className="hover:text-blue-500 mt-5 ">
               <Link href={link}>👉🏻 {titleText} 배포 사이트 보러가기 </Link>
             </div>
-            <div className="flex justify-center xl:justify-start items-center gap-2 hover:text-gray-600 mt-1">
+            <div className="flex justify-center items-center xl:justify-start gap-2 hover:text-gray-600 mt-1">
               <AiFillGithub />
               <Link href={github}>GitHub account</Link>
             </div>
