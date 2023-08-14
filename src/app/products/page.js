@@ -1,7 +1,7 @@
 import Image from "next/image";
 import title from "../../../public/title.png";
 import company from "../../../public/company.png";
-import mall from "../../../public/mall.png";
+import mall from "../../../public/mall.jpg";
 import diary from "../../../public/diary.png";
 import Link from "next/link";
 import { AiFillGithub } from "react-icons/ai";
