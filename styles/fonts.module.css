@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Gamja+Flower&family=Handlee&family=Hi+Melody&family=Nanum+Pen+Script&family=Noto+Sans+KR&family=Sunflower:wght@300&display=swap');
+
+.font1 {
+    font-family: 'Handlee', cursive;
+}
+
+@font-face {
+    font-family: 'Humanbumsuk';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2210-2@1.0/Humanbumsuk.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.font2 {
+    font-family: 'Humanbumsuk', sans-serif;
+}
