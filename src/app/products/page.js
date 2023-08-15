@@ -46,7 +46,7 @@ export default function Products() {
           "Bebe Mall",
           mall,
           "아기를 중심으로 한 쇼핑몰 홈페이지입니다.",
-          "반응형 웹 페이지",
+          "반응형 웹 페이지 (test계정 : test@email.com/password)",
           "React, Redux toolkit, tailwind Css",
           " https://mall.mybebe.net/",
           "https://github.com/hye-yeong95/bebe-mall"
@@ -55,7 +55,7 @@ export default function Products() {
           "Bebe Diary",
           diary,
           "부모와 아이의 출산, 육아의 일상을 기록하는 홈페이지입니다.",
-          "적응형 웹 페이지",
+          "적응형 웹 페이지 (test계정 : test@email.com/password) ",
           "React, Redux toolkit, tailwind Css, styled-component",
           " https://diary.mybebe.net/",
           "https://github.com/hye-yeong95/bebe-diary"
