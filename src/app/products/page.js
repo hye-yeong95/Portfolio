@@ -3,6 +3,7 @@ import title from "../../../public/title.png";
 import company from "../../../public/company.png";
 import mall from "../../../public/mall.jpg";
 import diary from "../../../public/diary.png";
+import portfolio from "../../../public/portfolio.jpg";
 import Link from "next/link";
 import { AiFillGithub } from "react-icons/ai";
 import styles from "../../../styles/fonts.module.css";
@@ -61,11 +62,11 @@ export default function Products() {
         )}
         {renderSection(
           "Portfolio",
-          diary,
+          portfolio,
           "김혜영 포트폴리오 페이지입니다.",
           "반응형 웹 페이지",
           "Next.js, tailwind Css",
-          "https://diary.mybebe.net/",
+          "https://portfolio-hye-yeong.vercel.app",
           "https://github.com/hye-yeong95/Portfolio"
         )}
       </div>
