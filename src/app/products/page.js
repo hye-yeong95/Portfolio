@@ -11,7 +11,7 @@ export default function Products() {
   return (
     <div>
       <div className="text-lg md:text-xl text-center my-12">
-        <h1 className={`text-3xl md:text-5xl  ${styles.font1} `}>
+        <h1 className={`text-3xl md:text-5xl  ${styles.font1} pt-10 `}>
           Bebe Project
         </h1>
         <p className={`mt-6 md:mt-10 leading-relaxed ${styles.font2} px-2`}>

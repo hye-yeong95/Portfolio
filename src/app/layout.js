@@ -13,12 +13,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html className="flex flex-col items-center">
-      <body className="max-w-screen-2xl">
+      <body>
         <div
           className={`relative flex justify-center items-center text-center ${styles.font1}`}
         >
           <Image src={sky} alt="sky" className="w-full -z-10 " />
-          <ol className="absolute flex top-2 md:top-4 right-2 md:right-12 gap-3 md:text-2xl">
+          <ol className="absolute flex top-2 md:top-4 right-2 md:right-12 gap-3 md:gap-8 md:text-2xl">
             <li>
               <Link href="/">About</Link>
             </li>
@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
           </div>
         </div>
         {children}
-        <Image src={footer} alt="footer" className="w-full mt-10" />
+        <Image src={footer} alt="footer" className="w-full0 mt-10" />
       </body>
     </html>
   );
