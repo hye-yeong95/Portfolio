@@ -112,7 +112,7 @@ function renderSection(
             <p className="my-1">✅ 사용 기술 스택</p>
             <p> : {skills}</p>
             <div className="hover:text-blue-500 mt-5 ">
-              <Link href={link}>👉🏻 {titleText} 배포 사이트 보러가기 </Link>
+              <Link href={link}>👉🏻 {titleText} 사이트 보러가기 </Link>
             </div>
             <div className="flex justify-center items-center xl:justify-start gap-2 hover:text-gray-600 mt-1">
               <AiFillGithub />
