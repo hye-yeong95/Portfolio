@@ -43,7 +43,7 @@ export default function RootLayout({ children }) {
               HTML, CSS, Javascript 그리고 React.js를 이용하여 베베 프로젝트를
               개발하고 배포한 경험이 있습니다.
               <br />
-              또한 현제 Next.js와 Typescript를 공부하고 있습니다.
+              또한 현재 Next.js와 Typescript를 공부하고 있습니다.
               <br />
               사용자들에게 더 나은 접근성과 그들의 니즈를 위해 지속적으로 새로운
               기술과 도수를 끊임없이 탐구하겠습니다.
