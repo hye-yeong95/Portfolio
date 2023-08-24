@@ -105,13 +105,13 @@ function renderSection(
       <div
         className={`flex flex-col xl:flex-row p-2 xl:py-10 gap-2 xl:gap-10 ${styles.font2}`}
       >
-        <Link href={detailPagePath}>
-          <Image
-            src={imageSrc}
-            alt="image"
-            className="md:w-[500px] border-2 border-blue-300 rounded-lg "
-          />
-        </Link>
+        {/* <Link href={detailPagePath}> */}
+        <Image
+          src={imageSrc}
+          alt="image"
+          className="md:w-[500px] border-2 border-blue-300 rounded-lg "
+        />
+        {/* </Link> */}
         <div className="md:w-[500px] py-4 lg:py-2 px-4 text-center xl:text-start">
           <p className="text-xl text-gray-700">{description}</p>
           <div className="text-gray-500 mt-6">
