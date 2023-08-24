@@ -16,7 +16,7 @@ export default function Products() {
           Bebe Project
         </h1>
         <p className={`mt-6 md:mt-10 leading-relaxed ${styles.font2} px-2`}>
-          Bebe Project는 부모와 아이의 삻의 질을 향상시키고 지원하기 위해 기획된
+          Bebe Project는 부모와 아이의 삶의 질을 향상시키고 지원하기 위해 기획된
           프로젝트입니다.
           <br /> 부모와 아이를 지원하는 다양한 서비스와 리소스를 제공하고자
           합니다. <br />
@@ -40,7 +40,8 @@ export default function Products() {
           "적응형 웹 페이지",
           "HTML, JavaScript, React, tailwind Css",
           "https://www.mybebe.net/",
-          "https://github.com/hye-yeong95/bebe"
+          "https://github.com/hye-yeong95/bebe",
+          "/products/company"
         )}
         {renderSection(
           "Bebe Mall",
@@ -49,7 +50,8 @@ export default function Products() {
           "반응형 웹 페이지 (test계정 : test@email.com/password)",
           "React, Redux toolkit, tailwind Css",
           " https://mall.mybebe.net/",
-          "https://github.com/hye-yeong95/bebe-mall"
+          "https://github.com/hye-yeong95/bebe-mall",
+          "/products/mall"
         )}
         {renderSection(
           "Bebe Diary",
@@ -58,7 +60,8 @@ export default function Products() {
           "적응형 웹 페이지 (test계정 : test@email.com/password) ",
           "React, Redux toolkit, tailwind Css, styled-component",
           " https://diary.mybebe.net/",
-          "https://github.com/hye-yeong95/bebe-diary"
+          "https://github.com/hye-yeong95/bebe-diary",
+          "/products/mall"
         )}
         {renderSection(
           "Portfolio",
@@ -67,7 +70,8 @@ export default function Products() {
           "반응형 웹 페이지",
           "Next.js, tailwind Css",
           "https://portfolio-hye-yeong.vercel.app",
-          "https://github.com/hye-yeong95/Portfolio"
+          "https://github.com/hye-yeong95/Portfolio",
+          "/"
         )}
       </div>
     </div>
@@ -81,7 +85,8 @@ function renderSection(
   web,
   skills,
   link,
-  github
+  github,
+  detailPagePath
 ) {
   return (
     <div>
@@ -100,11 +105,13 @@ function renderSection(
       <div
         className={`flex flex-col xl:flex-row p-2 xl:py-10 gap-2 xl:gap-10 ${styles.font2}`}
       >
+        {/* <Link href={detailPagePath}> */}
         <Image
           src={imageSrc}
           alt="image"
-          className="md:w-[500px] border-2 border-blue-300 rounded-lg"
+          className="md:w-[500px] border-2 border-blue-300 rounded-lg cursor-pointer"
         />
+        {/* </Link> */}
         <div className="md:w-[500px] py-4 lg:py-2 px-4 text-center xl:text-start">
           <p className="text-xl text-gray-700">{description}</p>
           <div className="text-gray-500 mt-6">
