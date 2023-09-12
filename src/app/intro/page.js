@@ -17,7 +17,7 @@ export default function Introduce() {
         <h1 className="text-2xl md:text-3xl py-8 text-teal-700">
           * 개발자로서의 시작 *
         </h1>
-        <p className="w-[500px] md:w-[600px] md:w-[600px] text-start text-base md:text-xl text-gray-700 leading-loose">
+        <p className="w-[500px] md:w-[600px] text-start text-base md:text-xl text-gray-700 leading-loose">
           지인의 소개로 프론트엔드 개발을 시작하게 되었습니다.
           <br />제 전공 분야와 다르기 때문에 초반에는 어려움을 겪었지만, 공식
           문서와 동영상 강의를 통해 반복적으로 학습하였습니다.
