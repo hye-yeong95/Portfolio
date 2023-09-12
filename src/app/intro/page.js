@@ -7,36 +7,6 @@ export default function Introduce() {
     <div
       className={`flex flex-col items-center text-center gap-2 xl:gap-10 px-4 ${styles.font2}`}
     >
-      <div className="relative flex justify-center items-center my-12">
-        <Image src={green} alt="green" className="w-[180px] md:w-[300px]" />
-        <h1 className={`absolute text-4xl md:text-5xl ${styles.font2}`}>
-          독학으로 공부
-        </h1>
-      </div>
-
-      <div>
-        <p className=" text-base md:text-xl text-gray-700 leading-loose">
-          공부한 기간 : 2022년 9월부터 개발 공부 시작
-        </p>
-        <h1 className="text-2xl md:text-3xl py-8 text-teal-700">
-          * 독학으로 한 이유 *
-        </h1>
-        <p className=" text-base md:text-xl text-gray-700 leading-loose">
-          ✅ 학습 목표와 계획을 세워서 할 수 있는 장점
-          <br /> ✅ 학원이나 부트 캠프보다 속도가 느리지만 스스로 해결하는
-          능력을 키울 수 있음
-        </p>
-        <h1 className="text-2xl md:text-3xl py-8  text-teal-700">
-          * 공부 방법 *
-        </h1>
-        <p className="text-base md:text-xl text-gray-700 leading-loose">
-          ✏️ 동영상 강의 공식문서를 활용해 기본 개념 배움
-          <br /> ✏️ 반복하면서 클론 코딩
-          <br /> ✏️ 나만의 프로젝트를 기획하고 시작
-          <br /> ✏️ 기본적인 코드를 만들어 반복
-          <br /> ✏️ 코드를 간략화하고 더 나은 기능들을 적용하면서 코드 수정
-        </p>
-      </div>
       <div className="relative flex justify-center items-center my-12 ">
         <Image src={green} alt="green" className="w-[180px] md:w-[300px]" />
         <h1 className={`absolute text-4xl md:text-5xl ${styles.font2}`}>
