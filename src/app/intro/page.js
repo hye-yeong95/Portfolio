@@ -17,7 +17,7 @@ export default function Introduce() {
         <h1 className="text-2xl md:text-3xl py-8 text-teal-700">
           * 개발자로서의 시작 *
         </h1>
-        <p className="text-base md:text-xl text-gray-700 leading-loose">
+        <p className="w-[500px] md:w-[600px] md:w-[600px] text-start text-base md:text-xl text-gray-700 leading-loose">
           지인의 소개로 프론트엔드 개발을 시작하게 되었습니다.
           <br />제 전공 분야와 다르기 때문에 초반에는 어려움을 겪었지만, 공식
           문서와 동영상 강의를 통해 반복적으로 학습하였습니다.
@@ -33,7 +33,7 @@ export default function Introduce() {
         <h1 className="text-2xl md:text-3xl py-8  text-teal-700">
           * 지원동기 *
         </h1>
-        <p className="text-base md:text-xl text-gray-700 leading-loose">
+        <p className="w-[500px] md:w-[600px] text-start text-base md:text-xl text-gray-700 leading-loose">
           지금 보유하고 있는 제 기술은 HTML, CSS, Javascript 그리고
           React.JS입니다.
           <br /> 또한 Next.JS와 Typescript를 학습하고 적용해 나가고 있습니다.
@@ -43,7 +43,7 @@ export default function Introduce() {
           새로운 환경에서 적용하여 성장하는 모습을 보여 드리겠습니다.
         </p>
         <h1 className="text-2xl md:text-3xl py-8 text-teal-700">* 장점 *</h1>
-        <p className="text-base md:text-xl text-gray-700 leading-loose">
+        <p className="w-[500px] md:w-[600px] text-start text-base md:text-xl text-gray-700 leading-loose">
           능동적인 자세로 업무를 수행합니다.
           <br />
           맡은 일을 성공적으로 수행하기 위해 업무를 미리 파악하고 계획을 세워
@@ -58,7 +58,7 @@ export default function Introduce() {
           성과를 이뤄내기 위해 최선을 다하겠습니다.
         </p>
         <h1 className="text-2xl md:text-3xl py-8  text-teal-700">* 단점 *</h1>
-        <p className="text-base md:text-xl text-gray-700 leading-loose">
+        <p className="w-[500px] md:w-[600px] text-start text-base md:text-xl text-gray-700 leading-loose">
           걱정이 많은 편입니다.
           <br />
           걱정과 걱정으로 인한 망설임을 극복하기 위해 문구나 책을 읽어 자신감과
@@ -68,7 +68,7 @@ export default function Introduce() {
         <h1 className="text-2xl md:text-3xl py-8  text-teal-700">
           * 입사 후 목표 *
         </h1>
-        <p className="text-base md:text-xl text-gray-700 leading-loose">
+        <p className="w-[500px] md:w-[600px] text-start text-base md:text-xl text-gray-700 leading-loose">
           업무를 신속하게 파악하고 적응하여 팀에 도움이 되는 팀원이 되고자
           합니다.
           <br />
